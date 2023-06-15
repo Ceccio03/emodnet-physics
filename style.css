@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body *{
+    box-sizing: border-box;
+}
+
 body{
     height: 100%;
     background-color: #004494;
@@ -11,7 +15,6 @@ body{
 }
 
 .main{
-    border: 1px solid red;
     width: 900px;
     height: 850px;
     display: flex;
@@ -20,16 +23,18 @@ body{
 }
 
 .row{
-    border: 1px solid green;
     display: flex;
     flex-wrap: wrap;
 }
 
 .column{
-    border: 1px solid blue;
     flex: 1;
 }
 
 a{
     color: white;
+}
+
+hr{
+    width: 100%;
 }
