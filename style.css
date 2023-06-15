@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html, body{
-    margin: auto;
+body{
     height: 100%;
-    max-width: 80%;
     background-color: royalblue;
     color: white;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main{
     border: 1px solid red;
-    height: 100%;
+    width: 900px;
+    height: 850px;
     display: flex;
     flex-direction: column;
 
