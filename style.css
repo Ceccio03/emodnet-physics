@@ -2,7 +2,7 @@
 
 body{
     height: 100%;
-    background-color: royalblue;
+    background-color: #004494;
     color: white;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -19,14 +19,13 @@ body{
 
 }
 
-.content{
+.row{
     border: 1px solid green;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.item{
+.column{
     border: 1px solid blue;
     flex: 1;
 }
