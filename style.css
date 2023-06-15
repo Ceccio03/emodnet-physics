@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html, body{
     margin: auto;
     height: 100%;
     max-width: 80%;
+    background-color: royalblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -22,4 +27,8 @@ html, body{
 .item{
     border: 1px solid blue;
     flex: 1;
+}
+
+a{
+    color: white;
 }
