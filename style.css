@@ -25,11 +25,12 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 32px;
 }
 
 .column{
     flex: 1;
+    min-width: 300px;
 }
 
 a{
